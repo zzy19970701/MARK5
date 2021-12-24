@@ -13,7 +13,7 @@ library(plumber)
 
 #* Echo back the input
 #* @param msg The message to echo
-#* @post /echo
+#* @get /echo
 function(msg) {
     list(paste0("The message is: '", msg, "'"))
 }
